@@ -5,12 +5,10 @@
     <style>
       .nostr-key-collapse {
         background-clip: text;
-        background-image: linear-gradient(to right, black 0%, black 90%, white 100%);
+        background-image: linear-gradient(to right, black 0%, black 80%, white 100%);
         color: transparent;
         cursor: pointer;
-        display: inline-block;
-        overflow: clip;
-        width: 150px;
+        -webkit-background-clip: text;
       }
     </style>
   </head>
@@ -36,7 +34,7 @@
           <li><a href="https://www.instagram.com/kakkun61_photography/">@kakkun61_photography</a></li>
         </ul>
       </li>
-      <li>Nostr <span id="nostr-key" class="nostr-key-collapse" onclick="expandNostrKey()">npub157lqthxdgwl4gxe8up0dn9c29xzzxqrxryp23wv8h05gr9ztm2ps9smdc8</span> (<a href="/.well-known/nostr.json">NIP-05</a>)</li>
+      <li>Nostr <span id="nostr-key" onclick="expandNostrKey()"><noscript>npub157lqthxdgwl4gxe8up0dn9c29xzzxqrxryp23wv8h05gr9ztm2ps9smdc8</noscript></span> (<a href="/.well-known/nostr.json">NIP-05</a>)</li>
       <li>PGP <a href="/pgp-public-key.txt">公開鍵</a></li>
       <li>Twitter <a href="https://twitter.com/kakkun61">@kakkun61</a> (<a href="https://twitter.com/intent/user?user_id=9820592">9820592</a>)</li>
       <li>WWW Sites
@@ -48,9 +46,13 @@
       <li>Zenn <a href="https://zenn.dev/kakkun61">@kakkun61</a></li>
     </ul>
     <script>
+      const nostrKey = 'npub157lqthxdgwl4gxe8up0dn9c29xzzxqrxryp23wv8h05gr9ztm2ps9smdc8';
       const nostrKeySpan = document.getElementById('nostr-key');
+      nostrKeySpan.className = 'nostr-key-collapse';
+      nostrKeySpan.textContent = nostrKey.substring(0, 9);
       function expandNostrKey() {
         nostrKeySpan.className = '';
+        nostrKeySpan.textContent = nostrKey;
       }
     </script>
   </body>
