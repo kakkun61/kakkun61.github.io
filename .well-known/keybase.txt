@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kakkun61
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kakkun61.com
+  * I am kakkun61 (https://keybase.io/kakkun61) on keybase.
+  * I have a public key ASCLnfe-k8knvlf54Pf_OaOnM4QWL4Nx9x5__9sHXp1Kago
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208b9df7be93c927be57f9e0f7ff39a3a73384162f8371f71e7fffdb075e9d4a6a0a",
+      "host": "keybase.io",
+      "kid": "01208b9df7be93c927be57f9e0f7ff39a3a73384162f8371f71e7fffdb075e9d4a6a0a",
+      "uid": "6a5ea146042e5373fd389246d5086319",
+      "username": "kakkun61"
+    },
+    "merkle_root": {
+      "ctime": 1764380775,
+      "hash": "771c9135307f4fcfcf0dd1692e15ab711817e985567977ebc66af6428e20d7fd9f01a0214676c6d4919d91a604fe806b6f113ad38e74b56e687110dce7613dc4",
+      "hash_meta": "93b1761fa6569d60a9e2b9d787dc025d51b2fe60ca9257be0247eff2bc166d1d",
+      "seqno": 27259711
+    },
+    "service": {
+      "entropy": "D/I+Vzf98+CGHg9w/Bz2wlm0",
+      "hostname": "kakkun61.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.3"
+  },
+  "ctime": 1764380865,
+  "expire_in": 504576000,
+  "prev": "928dbfe332f4e376b59bae31ca6830f28f42573c02f154b3b512a9befe3a5489",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi533vpPJJ75X+eD3/zmjpzOEFi+Dcfcef//bB16dSmoKp3BheWxvYWTESpcCBsQgko2/4zL043a1m64xymgw8o9CVzwC8VSztRKpvv46VInEIDxHd6n2w8ehLnk9jsBPxj2Aw8I7qfArEb/doNTNE2JkAgHCo3NpZ8RA+Cgkdiiywx7MglVmAXY2snfkGV4JrPxhaJl8wadOjtMJyxHEWRsRrSb1LVpgvfrXcUCw9vlbzbYCyOR95l2JAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIGYwdRwLLHV+OivQAqVPzeN0i4UXpmzB0h2fJuU5c5to3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kakkun61
+
+==================================================================
