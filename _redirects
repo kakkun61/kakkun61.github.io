@@ -1,0 +1,5 @@
+# Hollo（ActivityPub）のドメイン分割設定：WebFinger/NodeInfo の探索リクエストを AP サーバーへ転送する
+# https://docs.hollo.social/ja/install/split-domain/#リバースプロキシのリダイレクト
+/.well-known/webfinger https://ap.kakkun61.com/.well-known/webfinger 301
+/.well-known/nodeinfo https://ap.kakkun61.com/.well-known/nodeinfo 301
+/.well-known/host-meta https://ap.kakkun61.com/.well-known/host-meta 301
